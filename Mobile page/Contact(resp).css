@@ -1,0 +1,98 @@
+
+
+
+/* NAVBAR AND TOGGLER */
+
+
+a.navbar-brand{
+    color: rgb(223, 211, 146); 
+}
+.navbar-toggler-icon{
+    color: red;
+}
+#socials {
+    background-color: rgb(73, 73, 73);
+    width: inherit;
+    height: 50px;
+    position: relative;
+    top: 295px;
+}
+
+#socials i {
+    padding: 5px 40px;
+    color: rgb(223, 211, 146);
+    position: relative;
+    top: 10px;
+}
+#fa-circle-user{
+    position: relative;
+    left: 145px;
+}
+
+/* MAIN BODY */
+
+body {
+    background: rgba(2, 15, 0, 0.877);
+}
+
+.body {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+#hire h2 {
+    color: rgb(136, 27, 27);
+    max-width: 175px;
+    position: absolute;
+    top: -20px;
+    left: 100px;
+}
+
+input {
+    padding: 15px 25px;
+    border-radius: 7px;
+    border: none;
+    border-color: rgb(223, 211, 146);
+    color: rgb(223, 211, 146);
+    opacity: 0.5;
+}
+
+textarea {
+    border-radius: 7px;
+    border: none;
+    border-color: rgb(223, 211, 146);
+    color: rgb(223, 211, 146);
+    opacity: 0.5;
+}
+
+.contact {
+    border: 1px solid rgb(223, 211, 146);
+    border-radius: 7px;
+    padding: 10px 55px;
+    text-decoration: none;
+    color: rgb(136, 27, 27);
+}
+
+input[type=text] {
+    background: transparent;
+    border: 1px solid;
+}
+
+input::placeholder{
+    text-align: left;
+    position: absolute;
+    left: 20px;
+}
+
+textarea{
+    background: transparent;
+    border: 1px solid;
+}
+
+textarea::placeholder{
+    text-align: left;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
